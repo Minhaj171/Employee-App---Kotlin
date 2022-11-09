@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navHomeFragment">
+
+    <fragment
+        android:id="@+id/navHomeFragment"
+        android:name="com.example.softifybdapp.view.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/home_fragment" />
+    <fragment
+        android:id="@+id/navProfileFragment"
+        android:name="com.example.softifybdapp.view.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/profile_fragment" />
+    <fragment
+        android:id="@+id/navAttendanceFragment"
+        android:name="com.example.softifybdapp.view.AttendanceFragment"
+        android:label="@string/title_attendance"
+        tools:layout="@layout/attendance_fragment" />
+</navigation>

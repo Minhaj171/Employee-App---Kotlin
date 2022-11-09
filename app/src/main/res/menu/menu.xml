@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- "Mark Favorite", should appear as action button if possible -->
+    <item
+        android:id="@+id/navHomeFragment"
+        android:icon="@drawable/ic_home"
+        android:title="@string/title_home"
+        android:checked="true"
+        android:checkable="true"
+        />
+
+    <item
+        android:id="@+id/navAttendanceFragment"
+        android:icon="@drawable/ic_calendar"
+        android:title="@string/title_attendance"
+        android:checkable="true"
+        />
+
+    <item
+        android:id="@+id/navProfileFragment"
+        android:icon="@drawable/ic_profile"
+        android:title="@string/title_profile"
+        android:checkable="true"
+        />
+
+
+</menu>
